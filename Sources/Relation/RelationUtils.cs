@@ -84,16 +84,6 @@ namespace OrderOfBirth
 
             if (pawnRelationDef == PawnRelationDefOf.UncleOrAunt)
             {
-                // var myParent = pawn.MyParentWhichIsSiblingTo(otherPawn);
-                // if (myParent == null)
-                // {
-                //     Log.Warning($"{pawn.NameFullColored}'s parent is null");
-                // }
-                // else
-                // {
-                //     Log.Warning($"{pawn.NameFullColored}'s parent is {myParent.NameFullColored}");
-                // }
-
                 if (otherPawn.gender == Gender.Female)
                 {
                     return pawn.MyParentWhichIsSiblingTo(otherPawn)?.IsYoungerThan(otherPawn) == true
