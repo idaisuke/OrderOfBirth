@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <OlderBrother.Label>兄</OlderBrother.Label>
+    <YoungerBrother.Label>弟</YoungerBrother.Label>
+    <OlderSister.Label>姉</OlderSister.Label>
+    <YoungerSister.Label>妹</YoungerSister.Label>
+    <OlderBrotherWithDifferentFathers.Label>異父兄</OlderBrotherWithDifferentFathers.Label>
+    <YoungerBrotherWithDifferentFathers.Label>異父弟</YoungerBrotherWithDifferentFathers.Label>
+    <OlderBrotherWithDifferentMothers.Label>異母兄</OlderBrotherWithDifferentMothers.Label>
+    <YoungerBrotherWithDifferentMothers.Label>異母弟</YoungerBrotherWithDifferentMothers.Label>
+    <OlderSisterWithDifferentFathers.Label>異父姉</OlderSisterWithDifferentFathers.Label>
+    <YoungerSisterWithDifferentFathers.Label>異父妹</YoungerSisterWithDifferentFathers.Label>
+    <OlderSisterWithDifferentMothers.Label>異母姉</OlderSisterWithDifferentMothers.Label>
+    <YoungerSisterWithDifferentMothers.Label>異母妹</YoungerSisterWithDifferentMothers.Label>
+    <OlderMaleCousin.Label>従兄</OlderMaleCousin.Label>
+    <YoungerMaleCousin.Label>従弟</YoungerMaleCousin.Label>
+    <OlderFemaleCousin.Label>従姉</OlderFemaleCousin.Label>
+    <YoungerFemaleCousin.Label>従妹</YoungerFemaleCousin.Label>
+    <OlderMaleSecondCousin.Label>再従兄</OlderMaleSecondCousin.Label>
+    <YoungerMaleSecondCousin.Label>再従弟</YoungerMaleSecondCousin.Label>
+    <OlderFemaleSecondCousin.Label>再従姉</OlderFemaleSecondCousin.Label>
+    <YoungerFemaleSecondCousin.Label>再従妹</YoungerFemaleSecondCousin.Label>
+    <OlderBrotherOfMyParent.Label>伯父</OlderBrotherOfMyParent.Label>
+    <YoungerBrotherOfMyParent.Label>叔父</YoungerBrotherOfMyParent.Label>
+    <OlderSisterOfMyParent.Label>伯母</OlderSisterOfMyParent.Label>
+    <YoungerSisterOfMyParent.Label>叔母</YoungerSisterOfMyParent.Label>
+    <OlderBrotherOfMyGrandparent.Label>大伯父</OlderBrotherOfMyGrandparent.Label>
+    <YoungerBrotherOfMyGrandparent.Label>大叔父</YoungerBrotherOfMyGrandparent.Label>
+    <OlderSisterOfMyGrandparent.Label>大伯母</OlderSisterOfMyGrandparent.Label>
+    <YoungerSisterOfMyGrandparent.Label>大叔母</YoungerSisterOfMyGrandparent.Label>
+
+</LanguageData>
