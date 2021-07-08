@@ -63,8 +63,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sources\Patch\HarmonySettings.cs" />
-    <Compile Include="Sources\Patch\Relation\RelationUtils.cs" />
     <Compile Include="Sources\Patch\UI\SocialCardUtilityPatch.cs" />
+    <Compile Include="Sources\Relation\RelationUtils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
