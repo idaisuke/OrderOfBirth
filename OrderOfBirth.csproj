@@ -62,9 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Sources\Patch" />
+    <Compile Include="Sources\Patch\HarmonySettings.cs" />
+    <Compile Include="Sources\Patch\Relation\RelationUtils.cs" />
+    <Compile Include="Sources\Patch\UI\SocialCardUtilityPatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
