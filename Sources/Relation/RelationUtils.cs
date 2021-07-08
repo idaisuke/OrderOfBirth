@@ -10,8 +10,13 @@ namespace OrderOfBirth
         public static string? GetStringForRelationTo(this Pawn pawn, Pawn otherPawn) =>
             pawn.GetStringForRelationTo(otherPawn, pawn.GetMostImportantRelation(otherPawn));
 
-        private static string? GetStringForRelationTo(this Pawn pawn, Pawn otherPawn, PawnRelationDef pawnRelationDef)
+        private static string? GetStringForRelationTo(this Pawn pawn, Pawn otherPawn, PawnRelationDef? pawnRelationDef)
         {
+            if (pawnRelationDef == null)
+            {
+                return null;
+            }
+
             if (pawnRelationDef == PawnRelationDefOf.Sibling)
             {
                 if (otherPawn.gender == Gender.Female)
