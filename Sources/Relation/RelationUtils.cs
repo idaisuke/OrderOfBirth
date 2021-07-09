@@ -123,6 +123,9 @@ namespace OrderOfBirth
             pawn.ageTracker.BirthAbsTicks == otherPawn.ageTracker.BirthAbsTicks &&
             pawn.thingIDNumber > otherPawn.thingIDNumber;
 
+        private static bool IsSameFatherAs(this Pawn pawn, Pawn otherPawn) =>
+            pawn.GetFather() != null && pawn.GetFather() == otherPawn.GetFather();
+
         private static bool IsSameMotherAs(this Pawn pawn, Pawn otherPawn) =>
             pawn.GetMother() != null && pawn.GetMother() == otherPawn.GetMother();
 
@@ -133,8 +136,7 @@ namespace OrderOfBirth
             pawn.Grandparents().FirstOrDefault(it => it.IsSiblingTo(otherPawn));
 
         private static bool IsSiblingTo(this Pawn? pawn, Pawn? otherPawn) =>
-            pawn != null && otherPawn != null &&
-            (pawn.GetFather() == otherPawn.GetFather() || pawn.GetMother() == otherPawn.GetMother());
+            pawn != null && otherPawn != null && (pawn.IsSameFatherAs(otherPawn) || pawn.IsSameMotherAs(otherPawn));
 
         private static IEnumerable<Pawn> Parents(this Pawn pawn)
         {
